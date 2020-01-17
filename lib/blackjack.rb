@@ -58,8 +58,7 @@ def runner
   until new_hand > 21
     new_hand = hit?(new_hand)
     display_card_total(new_hand)
-  else 
-    end_game(new_hand)
   end
+  end_game(new_hand)
 end
     
